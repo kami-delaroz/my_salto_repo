@@ -1627,6 +1627,12 @@ type salesforce.ContactPointAddress {
         default = false
       },
       {
+        fullName = "America/Miquelon"
+        isActive = true
+        label = "(GMT-02:00) St Pierre & Miquelon Daylight Time (America/Miquelon)"
+        default = false
+      },
+      {
         fullName = "America/Noronha"
         isActive = true
         label = "(GMT-02:00) Fernando de Noronha Standard Time (America/Noronha)"
@@ -1636,6 +1642,12 @@ type salesforce.ContactPointAddress {
         fullName = "Atlantic/South_Georgia"
         isActive = true
         label = "(GMT-02:00) South Georgia Time (Atlantic/South_Georgia)"
+        default = false
+      },
+      {
+        fullName = "America/St_Johns"
+        isActive = true
+        label = "(GMT-02:30) Newfoundland Daylight Time (America/St_Johns)"
         default = false
       },
       {
@@ -1735,6 +1747,24 @@ type salesforce.ContactPointAddress {
         default = false
       },
       {
+        fullName = "America/Glace_Bay"
+        isActive = true
+        label = "(GMT-03:00) Atlantic Daylight Time (America/Glace_Bay)"
+        default = false
+      },
+      {
+        fullName = "America/Goose_Bay"
+        isActive = true
+        label = "(GMT-03:00) Atlantic Daylight Time (America/Goose_Bay)"
+        default = false
+      },
+      {
+        fullName = "America/Halifax"
+        isActive = true
+        label = "(GMT-03:00) Atlantic Daylight Time (America/Halifax)"
+        default = false
+      },
+      {
         fullName = "America/Jujuy"
         isActive = true
         label = "(GMT-03:00) Argentina Standard Time (America/Jujuy)"
@@ -1753,9 +1783,9 @@ type salesforce.ContactPointAddress {
         default = false
       },
       {
-        fullName = "America/Miquelon"
+        fullName = "America/Moncton"
         isActive = true
-        label = "(GMT-03:00) St Pierre & Miquelon Standard Time (America/Miquelon)"
+        label = "(GMT-03:00) Atlantic Daylight Time (America/Moncton)"
         default = false
       },
       {
@@ -1801,6 +1831,12 @@ type salesforce.ContactPointAddress {
         default = false
       },
       {
+        fullName = "America/Thule"
+        isActive = true
+        label = "(GMT-03:00) Atlantic Daylight Time (America/Thule)"
+        default = false
+      },
+      {
         fullName = "Antarctica/Palmer"
         isActive = true
         label = "(GMT-03:00) Chile Standard Time (Antarctica/Palmer)"
@@ -1813,15 +1849,15 @@ type salesforce.ContactPointAddress {
         default = false
       },
       {
-        fullName = "Atlantic/Stanley"
+        fullName = "Atlantic/Bermuda"
         isActive = true
-        label = "(GMT-03:00) Falkland Islands Standard Time (Atlantic/Stanley)"
+        label = "(GMT-03:00) Atlantic Daylight Time (Atlantic/Bermuda)"
         default = false
       },
       {
-        fullName = "America/St_Johns"
+        fullName = "Atlantic/Stanley"
         isActive = true
-        label = "(GMT-03:30) Newfoundland Standard Time (America/St_Johns)"
+        label = "(GMT-03:00) Falkland Islands Standard Time (Atlantic/Stanley)"
         default = false
       },
       {
@@ -1885,21 +1921,21 @@ type salesforce.ContactPointAddress {
         default = false
       },
       {
+        fullName = "America/Detroit"
+        isActive = true
+        label = "(GMT-04:00) Eastern Daylight Time (America/Detroit)"
+        default = false
+      },
+      {
         fullName = "America/Dominica"
         isActive = true
         label = "(GMT-04:00) Atlantic Standard Time (America/Dominica)"
         default = false
       },
       {
-        fullName = "America/Glace_Bay"
+        fullName = "America/Grand_Turk"
         isActive = true
-        label = "(GMT-04:00) Atlantic Standard Time (America/Glace_Bay)"
-        default = false
-      },
-      {
-        fullName = "America/Goose_Bay"
-        isActive = true
-        label = "(GMT-04:00) Atlantic Standard Time (America/Goose_Bay)"
+        label = "(GMT-04:00) Eastern Daylight Time (America/Grand_Turk)"
         default = false
       },
       {
@@ -1921,9 +1957,51 @@ type salesforce.ContactPointAddress {
         default = false
       },
       {
-        fullName = "America/Halifax"
+        fullName = "America/Indiana/Indianapolis"
         isActive = true
-        label = "(GMT-04:00) Atlantic Standard Time (America/Halifax)"
+        label = "(GMT-04:00) Eastern Daylight Time (America/Indiana/Indianapolis)"
+        default = false
+      },
+      {
+        fullName = "America/Indiana/Marengo"
+        isActive = true
+        label = "(GMT-04:00) Eastern Daylight Time (America/Indiana/Marengo)"
+        default = false
+      },
+      {
+        fullName = "America/Indiana/Petersburg"
+        isActive = true
+        label = "(GMT-04:00) Eastern Daylight Time (America/Indiana/Petersburg)"
+        default = false
+      },
+      {
+        fullName = "America/Indiana/Vevay"
+        isActive = true
+        label = "(GMT-04:00) Eastern Daylight Time (America/Indiana/Vevay)"
+        default = false
+      },
+      {
+        fullName = "America/Indiana/Vincennes"
+        isActive = true
+        label = "(GMT-04:00) Eastern Daylight Time (America/Indiana/Vincennes)"
+        default = false
+      },
+      {
+        fullName = "America/Indiana/Winamac"
+        isActive = true
+        label = "(GMT-04:00) Eastern Daylight Time (America/Indiana/Winamac)"
+        default = false
+      },
+      {
+        fullName = "America/Iqaluit"
+        isActive = true
+        label = "(GMT-04:00) Eastern Daylight Time (America/Iqaluit)"
+        default = false
+      },
+      {
+        fullName = "America/Kentucky/Monticello"
+        isActive = true
+        label = "(GMT-04:00) Eastern Daylight Time (America/Kentucky/Monticello)"
         default = false
       },
       {
@@ -1936,6 +2014,12 @@ type salesforce.ContactPointAddress {
         fullName = "America/La_Paz"
         isActive = true
         label = "(GMT-04:00) Bolivia Time (America/La_Paz)"
+        default = false
+      },
+      {
+        fullName = "America/Louisville"
+        isActive = true
+        label = "(GMT-04:00) Eastern Daylight Time (America/Louisville)"
         default = false
       },
       {
@@ -1963,15 +2047,45 @@ type salesforce.ContactPointAddress {
         default = false
       },
       {
-        fullName = "America/Moncton"
+        fullName = "America/Montreal"
         isActive = true
-        label = "(GMT-04:00) Atlantic Standard Time (America/Moncton)"
+        label = "(GMT-04:00) Eastern Daylight Time (America/Montreal)"
         default = false
       },
       {
         fullName = "America/Montserrat"
         isActive = true
         label = "(GMT-04:00) Atlantic Standard Time (America/Montserrat)"
+        default = false
+      },
+      {
+        fullName = "America/Nassau"
+        isActive = true
+        label = "(GMT-04:00) Eastern Daylight Time (America/Nassau)"
+        default = false
+      },
+      {
+        fullName = "America/New_York"
+        isActive = true
+        label = "(GMT-04:00) Eastern Daylight Time (America/New_York)"
+        default = false
+      },
+      {
+        fullName = "America/Nipigon"
+        isActive = true
+        label = "(GMT-04:00) Eastern Daylight Time (America/Nipigon)"
+        default = false
+      },
+      {
+        fullName = "America/Pangnirtung"
+        isActive = true
+        label = "(GMT-04:00) Eastern Daylight Time (America/Pangnirtung)"
+        default = false
+      },
+      {
+        fullName = "America/Port-au-Prince"
+        isActive = true
+        label = "(GMT-04:00) Eastern Daylight Time (America/Port-au-Prince)"
         default = false
       },
       {
@@ -2029,21 +2143,21 @@ type salesforce.ContactPointAddress {
         default = false
       },
       {
-        fullName = "America/Thule"
+        fullName = "America/Thunder_Bay"
         isActive = true
-        label = "(GMT-04:00) Atlantic Standard Time (America/Thule)"
+        label = "(GMT-04:00) Eastern Daylight Time (America/Thunder_Bay)"
+        default = false
+      },
+      {
+        fullName = "America/Toronto"
+        isActive = true
+        label = "(GMT-04:00) Eastern Daylight Time (America/Toronto)"
         default = false
       },
       {
         fullName = "America/Tortola"
         isActive = true
         label = "(GMT-04:00) Atlantic Standard Time (America/Tortola)"
-        default = false
-      },
-      {
-        fullName = "Atlantic/Bermuda"
-        isActive = true
-        label = "(GMT-04:00) Atlantic Standard Time (Atlantic/Bermuda)"
         default = false
       },
       {
@@ -2065,15 +2179,15 @@ type salesforce.ContactPointAddress {
         default = false
       },
       {
-        fullName = "America/Coral_Harbour"
+        fullName = "America/Chicago"
         isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Coral_Harbour)"
+        label = "(GMT-05:00) Central Daylight Time (America/Chicago)"
         default = false
       },
       {
-        fullName = "America/Detroit"
+        fullName = "America/Coral_Harbour"
         isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Detroit)"
+        label = "(GMT-05:00) Eastern Standard Time (America/Coral_Harbour)"
         default = false
       },
       {
@@ -2083,57 +2197,21 @@ type salesforce.ContactPointAddress {
         default = false
       },
       {
-        fullName = "America/Grand_Turk"
-        isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Grand_Turk)"
-        default = false
-      },
-      {
         fullName = "America/Guayaquil"
         isActive = true
         label = "(GMT-05:00) Ecuador Time (America/Guayaquil)"
         default = false
       },
       {
-        fullName = "America/Indiana/Indianapolis"
+        fullName = "America/Indiana/Knox"
         isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Indiana/Indianapolis)"
+        label = "(GMT-05:00) Central Daylight Time (America/Indiana/Knox)"
         default = false
       },
       {
-        fullName = "America/Indiana/Marengo"
+        fullName = "America/Indiana/Tell_City"
         isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Indiana/Marengo)"
-        default = false
-      },
-      {
-        fullName = "America/Indiana/Petersburg"
-        isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Indiana/Petersburg)"
-        default = false
-      },
-      {
-        fullName = "America/Indiana/Vevay"
-        isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Indiana/Vevay)"
-        default = false
-      },
-      {
-        fullName = "America/Indiana/Vincennes"
-        isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Indiana/Vincennes)"
-        default = false
-      },
-      {
-        fullName = "America/Indiana/Winamac"
-        isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Indiana/Winamac)"
-        default = false
-      },
-      {
-        fullName = "America/Iqaluit"
-        isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Iqaluit)"
+        label = "(GMT-05:00) Central Daylight Time (America/Indiana/Tell_City)"
         default = false
       },
       {
@@ -2143,45 +2221,45 @@ type salesforce.ContactPointAddress {
         default = false
       },
       {
-        fullName = "America/Kentucky/Monticello"
-        isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Kentucky/Monticello)"
-        default = false
-      },
-      {
         fullName = "America/Lima"
         isActive = true
         label = "(GMT-05:00) Peru Standard Time (America/Lima)"
         default = false
       },
       {
-        fullName = "America/Louisville"
+        fullName = "America/Matamoros"
         isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Louisville)"
+        label = "(GMT-05:00) Central Daylight Time (America/Matamoros)"
         default = false
       },
       {
-        fullName = "America/Montreal"
+        fullName = "America/Menominee"
         isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Montreal)"
+        label = "(GMT-05:00) Central Daylight Time (America/Menominee)"
         default = false
       },
       {
-        fullName = "America/Nassau"
+        fullName = "America/North_Dakota/Beulah"
         isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Nassau)"
+        label = "(GMT-05:00) Central Daylight Time (America/North_Dakota/Beulah)"
         default = false
       },
       {
-        fullName = "America/New_York"
+        fullName = "America/North_Dakota/Center"
         isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/New_York)"
+        label = "(GMT-05:00) Central Daylight Time (America/North_Dakota/Center)"
         default = false
       },
       {
-        fullName = "America/Nipigon"
+        fullName = "America/North_Dakota/New_Salem"
         isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Nipigon)"
+        label = "(GMT-05:00) Central Daylight Time (America/North_Dakota/New_Salem)"
+        default = false
+      },
+      {
+        fullName = "America/Ojinaga"
+        isActive = true
+        label = "(GMT-05:00) Mountain Daylight Time (America/Ojinaga)"
         default = false
       },
       {
@@ -2191,15 +2269,21 @@ type salesforce.ContactPointAddress {
         default = false
       },
       {
-        fullName = "America/Pangnirtung"
+        fullName = "America/Rainy_River"
         isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Pangnirtung)"
+        label = "(GMT-05:00) Central Daylight Time (America/Rainy_River)"
         default = false
       },
       {
-        fullName = "America/Port-au-Prince"
+        fullName = "America/Rankin_Inlet"
         isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Port-au-Prince)"
+        label = "(GMT-05:00) Central Daylight Time (America/Rankin_Inlet)"
+        default = false
+      },
+      {
+        fullName = "America/Resolute"
+        isActive = true
+        label = "(GMT-05:00) Central Daylight Time (America/Resolute)"
         default = false
       },
       {
@@ -2209,15 +2293,9 @@ type salesforce.ContactPointAddress {
         default = false
       },
       {
-        fullName = "America/Thunder_Bay"
+        fullName = "America/Winnipeg"
         isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Thunder_Bay)"
-        default = false
-      },
-      {
-        fullName = "America/Toronto"
-        isActive = true
-        label = "(GMT-05:00) Eastern Standard Time (America/Toronto)"
+        label = "(GMT-05:00) Central Daylight Time (America/Winnipeg)"
         default = false
       },
       {
@@ -2239,9 +2317,15 @@ type salesforce.ContactPointAddress {
         default = false
       },
       {
-        fullName = "America/Chicago"
+        fullName = "America/Boise"
         isActive = true
-        label = "(GMT-06:00) Central Standard Time (America/Chicago)"
+        label = "(GMT-06:00) Mountain Daylight Time (America/Boise)"
+        default = false
+      },
+      {
+        fullName = "America/Cambridge_Bay"
+        isActive = true
+        label = "(GMT-06:00) Mountain Daylight Time (America/Cambridge_Bay)"
         default = false
       },
       {
@@ -2257,6 +2341,18 @@ type salesforce.ContactPointAddress {
         default = false
       },
       {
+        fullName = "America/Denver"
+        isActive = true
+        label = "(GMT-06:00) Mountain Daylight Time (America/Denver)"
+        default = false
+      },
+      {
+        fullName = "America/Edmonton"
+        isActive = true
+        label = "(GMT-06:00) Mountain Daylight Time (America/Edmonton)"
+        default = false
+      },
+      {
         fullName = "America/El_Salvador"
         isActive = true
         label = "(GMT-06:00) Central Standard Time (America/El_Salvador)"
@@ -2269,33 +2365,15 @@ type salesforce.ContactPointAddress {
         default = false
       },
       {
-        fullName = "America/Indiana/Knox"
+        fullName = "America/Inuvik"
         isActive = true
-        label = "(GMT-06:00) Central Standard Time (America/Indiana/Knox)"
-        default = false
-      },
-      {
-        fullName = "America/Indiana/Tell_City"
-        isActive = true
-        label = "(GMT-06:00) Central Standard Time (America/Indiana/Tell_City)"
+        label = "(GMT-06:00) Mountain Daylight Time (America/Inuvik)"
         default = false
       },
       {
         fullName = "America/Managua"
         isActive = true
         label = "(GMT-06:00) Central Standard Time (America/Managua)"
-        default = false
-      },
-      {
-        fullName = "America/Matamoros"
-        isActive = true
-        label = "(GMT-06:00) Central Standard Time (America/Matamoros)"
-        default = false
-      },
-      {
-        fullName = "America/Menominee"
-        isActive = true
-        label = "(GMT-06:00) Central Standard Time (America/Menominee)"
         default = false
       },
       {
@@ -2317,51 +2395,9 @@ type salesforce.ContactPointAddress {
         default = false
       },
       {
-        fullName = "America/North_Dakota/Beulah"
-        isActive = true
-        label = "(GMT-06:00) Central Standard Time (America/North_Dakota/Beulah)"
-        default = false
-      },
-      {
-        fullName = "America/North_Dakota/Center"
-        isActive = true
-        label = "(GMT-06:00) Central Standard Time (America/North_Dakota/Center)"
-        default = false
-      },
-      {
-        fullName = "America/North_Dakota/New_Salem"
-        isActive = true
-        label = "(GMT-06:00) Central Standard Time (America/North_Dakota/New_Salem)"
-        default = false
-      },
-      {
-        fullName = "America/Ojinaga"
-        isActive = true
-        label = "(GMT-06:00) Mountain Standard Time (America/Ojinaga)"
-        default = false
-      },
-      {
-        fullName = "America/Rainy_River"
-        isActive = true
-        label = "(GMT-06:00) Central Standard Time (America/Rainy_River)"
-        default = false
-      },
-      {
-        fullName = "America/Rankin_Inlet"
-        isActive = true
-        label = "(GMT-06:00) Central Standard Time (America/Rankin_Inlet)"
-        default = false
-      },
-      {
         fullName = "America/Regina"
         isActive = true
         label = "(GMT-06:00) Central Standard Time (America/Regina)"
-        default = false
-      },
-      {
-        fullName = "America/Resolute"
-        isActive = true
-        label = "(GMT-06:00) Central Standard Time (America/Resolute)"
         default = false
       },
       {
@@ -2377,27 +2413,15 @@ type salesforce.ContactPointAddress {
         default = false
       },
       {
-        fullName = "America/Winnipeg"
+        fullName = "America/Yellowknife"
         isActive = true
-        label = "(GMT-06:00) Central Standard Time (America/Winnipeg)"
+        label = "(GMT-06:00) Mountain Daylight Time (America/Yellowknife)"
         default = false
       },
       {
         fullName = "Pacific/Galapagos"
         isActive = true
         label = "(GMT-06:00) Galapagos Time (Pacific/Galapagos)"
-        default = false
-      },
-      {
-        fullName = "America/Boise"
-        isActive = true
-        label = "(GMT-07:00) Mountain Standard Time (America/Boise)"
-        default = false
-      },
-      {
-        fullName = "America/Cambridge_Bay"
-        isActive = true
-        label = "(GMT-07:00) Mountain Standard Time (America/Cambridge_Bay)"
         default = false
       },
       {
@@ -2419,18 +2443,6 @@ type salesforce.ContactPointAddress {
         default = false
       },
       {
-        fullName = "America/Denver"
-        isActive = true
-        label = "(GMT-07:00) Mountain Standard Time (America/Denver)"
-        default = false
-      },
-      {
-        fullName = "America/Edmonton"
-        isActive = true
-        label = "(GMT-07:00) Mountain Standard Time (America/Edmonton)"
-        default = false
-      },
-      {
         fullName = "America/Fort_Nelson"
         isActive = true
         label = "(GMT-07:00) Mountain Standard Time (America/Fort_Nelson)"
@@ -2443,9 +2455,9 @@ type salesforce.ContactPointAddress {
         default = false
       },
       {
-        fullName = "America/Inuvik"
+        fullName = "America/Los_Angeles"
         isActive = true
-        label = "(GMT-07:00) Mountain Standard Time (America/Inuvik)"
+        label = "(GMT-07:00) Pacific Daylight Time (America/Los_Angeles)"
         default = false
       },
       {
@@ -2461,39 +2473,63 @@ type salesforce.ContactPointAddress {
         default = false
       },
       {
+        fullName = "America/Santa_Isabel"
+        isActive = true
+        label = "(GMT-07:00) Northwest Mexico Daylight Time (America/Santa_Isabel)"
+        default = false
+      },
+      {
+        fullName = "America/Tijuana"
+        isActive = true
+        label = "(GMT-07:00) Pacific Daylight Time (America/Tijuana)"
+        default = false
+      },
+      {
+        fullName = "America/Vancouver"
+        isActive = true
+        label = "(GMT-07:00) Pacific Daylight Time (America/Vancouver)"
+        default = false
+      },
+      {
         fullName = "America/Whitehorse"
         isActive = true
         label = "(GMT-07:00) Yukon Time (America/Whitehorse)"
         default = false
       },
       {
-        fullName = "America/Yellowknife"
+        fullName = "America/Anchorage"
         isActive = true
-        label = "(GMT-07:00) Mountain Standard Time (America/Yellowknife)"
+        label = "(GMT-08:00) Alaska Daylight Time (America/Anchorage)"
         default = false
       },
       {
-        fullName = "America/Los_Angeles"
+        fullName = "America/Juneau"
         isActive = true
-        label = "(GMT-08:00) Pacific Standard Time (America/Los_Angeles)"
+        label = "(GMT-08:00) Alaska Daylight Time (America/Juneau)"
         default = false
       },
       {
-        fullName = "America/Santa_Isabel"
+        fullName = "America/Metlakatla"
         isActive = true
-        label = "(GMT-08:00) Northwest Mexico Standard Time (America/Santa_Isabel)"
+        label = "(GMT-08:00) Alaska Daylight Time (America/Metlakatla)"
         default = false
       },
       {
-        fullName = "America/Tijuana"
+        fullName = "America/Nome"
         isActive = true
-        label = "(GMT-08:00) Pacific Standard Time (America/Tijuana)"
+        label = "(GMT-08:00) Alaska Daylight Time (America/Nome)"
         default = false
       },
       {
-        fullName = "America/Vancouver"
+        fullName = "America/Sitka"
         isActive = true
-        label = "(GMT-08:00) Pacific Standard Time (America/Vancouver)"
+        label = "(GMT-08:00) Alaska Daylight Time (America/Sitka)"
+        default = false
+      },
+      {
+        fullName = "America/Yakutat"
+        isActive = true
+        label = "(GMT-08:00) Alaska Daylight Time (America/Yakutat)"
         default = false
       },
       {
@@ -2503,39 +2539,9 @@ type salesforce.ContactPointAddress {
         default = false
       },
       {
-        fullName = "America/Anchorage"
+        fullName = "America/Adak"
         isActive = true
-        label = "(GMT-09:00) Alaska Standard Time (America/Anchorage)"
-        default = false
-      },
-      {
-        fullName = "America/Juneau"
-        isActive = true
-        label = "(GMT-09:00) Alaska Standard Time (America/Juneau)"
-        default = false
-      },
-      {
-        fullName = "America/Metlakatla"
-        isActive = true
-        label = "(GMT-09:00) Alaska Standard Time (America/Metlakatla)"
-        default = false
-      },
-      {
-        fullName = "America/Nome"
-        isActive = true
-        label = "(GMT-09:00) Alaska Standard Time (America/Nome)"
-        default = false
-      },
-      {
-        fullName = "America/Sitka"
-        isActive = true
-        label = "(GMT-09:00) Alaska Standard Time (America/Sitka)"
-        default = false
-      },
-      {
-        fullName = "America/Yakutat"
-        isActive = true
-        label = "(GMT-09:00) Alaska Standard Time (America/Yakutat)"
+        label = "(GMT-09:00) Hawaii-Aleutian Daylight Time (America/Adak)"
         default = false
       },
       {
@@ -2548,12 +2554,6 @@ type salesforce.ContactPointAddress {
         fullName = "Pacific/Marquesas"
         isActive = true
         label = "(GMT-09:30) Marquesas Time (Pacific/Marquesas)"
-        default = false
-      },
-      {
-        fullName = "America/Adak"
-        isActive = true
-        label = "(GMT-10:00) Hawaii-Aleutian Standard Time (America/Adak)"
         default = false
       },
       {

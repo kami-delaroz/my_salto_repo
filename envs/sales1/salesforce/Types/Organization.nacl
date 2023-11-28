@@ -3021,6 +3021,12 @@ settings salesforce.Organization {
         isActive = true
       },
       {
+        fullName = "America/Miquelon"
+        default = false
+        label = "(GMT-02:00) St Pierre & Miquelon Daylight Time (America/Miquelon)"
+        isActive = true
+      },
+      {
         fullName = "America/Noronha"
         default = false
         label = "(GMT-02:00) Fernando de Noronha Standard Time (America/Noronha)"
@@ -3030,6 +3036,12 @@ settings salesforce.Organization {
         fullName = "Atlantic/South_Georgia"
         default = false
         label = "(GMT-02:00) South Georgia Time (Atlantic/South_Georgia)"
+        isActive = true
+      },
+      {
+        fullName = "America/St_Johns"
+        default = false
+        label = "(GMT-02:30) Newfoundland Daylight Time (America/St_Johns)"
         isActive = true
       },
       {
@@ -3129,6 +3141,24 @@ settings salesforce.Organization {
         isActive = true
       },
       {
+        fullName = "America/Glace_Bay"
+        default = false
+        label = "(GMT-03:00) Atlantic Daylight Time (America/Glace_Bay)"
+        isActive = true
+      },
+      {
+        fullName = "America/Goose_Bay"
+        default = false
+        label = "(GMT-03:00) Atlantic Daylight Time (America/Goose_Bay)"
+        isActive = true
+      },
+      {
+        fullName = "America/Halifax"
+        default = false
+        label = "(GMT-03:00) Atlantic Daylight Time (America/Halifax)"
+        isActive = true
+      },
+      {
         fullName = "America/Jujuy"
         default = false
         label = "(GMT-03:00) Argentina Standard Time (America/Jujuy)"
@@ -3147,9 +3177,9 @@ settings salesforce.Organization {
         isActive = true
       },
       {
-        fullName = "America/Miquelon"
+        fullName = "America/Moncton"
         default = false
-        label = "(GMT-03:00) St Pierre & Miquelon Standard Time (America/Miquelon)"
+        label = "(GMT-03:00) Atlantic Daylight Time (America/Moncton)"
         isActive = true
       },
       {
@@ -3195,6 +3225,12 @@ settings salesforce.Organization {
         isActive = true
       },
       {
+        fullName = "America/Thule"
+        default = false
+        label = "(GMT-03:00) Atlantic Daylight Time (America/Thule)"
+        isActive = true
+      },
+      {
         fullName = "Antarctica/Palmer"
         default = false
         label = "(GMT-03:00) Chile Standard Time (Antarctica/Palmer)"
@@ -3207,15 +3243,15 @@ settings salesforce.Organization {
         isActive = true
       },
       {
-        fullName = "Atlantic/Stanley"
+        fullName = "Atlantic/Bermuda"
         default = false
-        label = "(GMT-03:00) Falkland Islands Standard Time (Atlantic/Stanley)"
+        label = "(GMT-03:00) Atlantic Daylight Time (Atlantic/Bermuda)"
         isActive = true
       },
       {
-        fullName = "America/St_Johns"
+        fullName = "Atlantic/Stanley"
         default = false
-        label = "(GMT-03:30) Newfoundland Standard Time (America/St_Johns)"
+        label = "(GMT-03:00) Falkland Islands Standard Time (Atlantic/Stanley)"
         isActive = true
       },
       {
@@ -3279,21 +3315,21 @@ settings salesforce.Organization {
         isActive = true
       },
       {
+        fullName = "America/Detroit"
+        default = false
+        label = "(GMT-04:00) Eastern Daylight Time (America/Detroit)"
+        isActive = true
+      },
+      {
         fullName = "America/Dominica"
         default = false
         label = "(GMT-04:00) Atlantic Standard Time (America/Dominica)"
         isActive = true
       },
       {
-        fullName = "America/Glace_Bay"
+        fullName = "America/Grand_Turk"
         default = false
-        label = "(GMT-04:00) Atlantic Standard Time (America/Glace_Bay)"
-        isActive = true
-      },
-      {
-        fullName = "America/Goose_Bay"
-        default = false
-        label = "(GMT-04:00) Atlantic Standard Time (America/Goose_Bay)"
+        label = "(GMT-04:00) Eastern Daylight Time (America/Grand_Turk)"
         isActive = true
       },
       {
@@ -3315,9 +3351,51 @@ settings salesforce.Organization {
         isActive = true
       },
       {
-        fullName = "America/Halifax"
+        fullName = "America/Indiana/Indianapolis"
         default = false
-        label = "(GMT-04:00) Atlantic Standard Time (America/Halifax)"
+        label = "(GMT-04:00) Eastern Daylight Time (America/Indiana/Indianapolis)"
+        isActive = true
+      },
+      {
+        fullName = "America/Indiana/Marengo"
+        default = false
+        label = "(GMT-04:00) Eastern Daylight Time (America/Indiana/Marengo)"
+        isActive = true
+      },
+      {
+        fullName = "America/Indiana/Petersburg"
+        default = false
+        label = "(GMT-04:00) Eastern Daylight Time (America/Indiana/Petersburg)"
+        isActive = true
+      },
+      {
+        fullName = "America/Indiana/Vevay"
+        default = false
+        label = "(GMT-04:00) Eastern Daylight Time (America/Indiana/Vevay)"
+        isActive = true
+      },
+      {
+        fullName = "America/Indiana/Vincennes"
+        default = false
+        label = "(GMT-04:00) Eastern Daylight Time (America/Indiana/Vincennes)"
+        isActive = true
+      },
+      {
+        fullName = "America/Indiana/Winamac"
+        default = false
+        label = "(GMT-04:00) Eastern Daylight Time (America/Indiana/Winamac)"
+        isActive = true
+      },
+      {
+        fullName = "America/Iqaluit"
+        default = false
+        label = "(GMT-04:00) Eastern Daylight Time (America/Iqaluit)"
+        isActive = true
+      },
+      {
+        fullName = "America/Kentucky/Monticello"
+        default = false
+        label = "(GMT-04:00) Eastern Daylight Time (America/Kentucky/Monticello)"
         isActive = true
       },
       {
@@ -3330,6 +3408,12 @@ settings salesforce.Organization {
         fullName = "America/La_Paz"
         default = false
         label = "(GMT-04:00) Bolivia Time (America/La_Paz)"
+        isActive = true
+      },
+      {
+        fullName = "America/Louisville"
+        default = false
+        label = "(GMT-04:00) Eastern Daylight Time (America/Louisville)"
         isActive = true
       },
       {
@@ -3357,15 +3441,45 @@ settings salesforce.Organization {
         isActive = true
       },
       {
-        fullName = "America/Moncton"
+        fullName = "America/Montreal"
         default = false
-        label = "(GMT-04:00) Atlantic Standard Time (America/Moncton)"
+        label = "(GMT-04:00) Eastern Daylight Time (America/Montreal)"
         isActive = true
       },
       {
         fullName = "America/Montserrat"
         default = false
         label = "(GMT-04:00) Atlantic Standard Time (America/Montserrat)"
+        isActive = true
+      },
+      {
+        fullName = "America/Nassau"
+        default = false
+        label = "(GMT-04:00) Eastern Daylight Time (America/Nassau)"
+        isActive = true
+      },
+      {
+        fullName = "America/New_York"
+        default = false
+        label = "(GMT-04:00) Eastern Daylight Time (America/New_York)"
+        isActive = true
+      },
+      {
+        fullName = "America/Nipigon"
+        default = false
+        label = "(GMT-04:00) Eastern Daylight Time (America/Nipigon)"
+        isActive = true
+      },
+      {
+        fullName = "America/Pangnirtung"
+        default = false
+        label = "(GMT-04:00) Eastern Daylight Time (America/Pangnirtung)"
+        isActive = true
+      },
+      {
+        fullName = "America/Port-au-Prince"
+        default = false
+        label = "(GMT-04:00) Eastern Daylight Time (America/Port-au-Prince)"
         isActive = true
       },
       {
@@ -3423,21 +3537,21 @@ settings salesforce.Organization {
         isActive = true
       },
       {
-        fullName = "America/Thule"
+        fullName = "America/Thunder_Bay"
         default = false
-        label = "(GMT-04:00) Atlantic Standard Time (America/Thule)"
+        label = "(GMT-04:00) Eastern Daylight Time (America/Thunder_Bay)"
+        isActive = true
+      },
+      {
+        fullName = "America/Toronto"
+        default = false
+        label = "(GMT-04:00) Eastern Daylight Time (America/Toronto)"
         isActive = true
       },
       {
         fullName = "America/Tortola"
         default = false
         label = "(GMT-04:00) Atlantic Standard Time (America/Tortola)"
-        isActive = true
-      },
-      {
-        fullName = "Atlantic/Bermuda"
-        default = false
-        label = "(GMT-04:00) Atlantic Standard Time (Atlantic/Bermuda)"
         isActive = true
       },
       {
@@ -3459,15 +3573,15 @@ settings salesforce.Organization {
         isActive = true
       },
       {
-        fullName = "America/Coral_Harbour"
+        fullName = "America/Chicago"
         default = false
-        label = "(GMT-05:00) Eastern Standard Time (America/Coral_Harbour)"
+        label = "(GMT-05:00) Central Daylight Time (America/Chicago)"
         isActive = true
       },
       {
-        fullName = "America/Detroit"
+        fullName = "America/Coral_Harbour"
         default = false
-        label = "(GMT-05:00) Eastern Standard Time (America/Detroit)"
+        label = "(GMT-05:00) Eastern Standard Time (America/Coral_Harbour)"
         isActive = true
       },
       {
@@ -3477,57 +3591,21 @@ settings salesforce.Organization {
         isActive = true
       },
       {
-        fullName = "America/Grand_Turk"
-        default = false
-        label = "(GMT-05:00) Eastern Standard Time (America/Grand_Turk)"
-        isActive = true
-      },
-      {
         fullName = "America/Guayaquil"
         default = false
         label = "(GMT-05:00) Ecuador Time (America/Guayaquil)"
         isActive = true
       },
       {
-        fullName = "America/Indiana/Indianapolis"
+        fullName = "America/Indiana/Knox"
         default = false
-        label = "(GMT-05:00) Eastern Standard Time (America/Indiana/Indianapolis)"
+        label = "(GMT-05:00) Central Daylight Time (America/Indiana/Knox)"
         isActive = true
       },
       {
-        fullName = "America/Indiana/Marengo"
+        fullName = "America/Indiana/Tell_City"
         default = false
-        label = "(GMT-05:00) Eastern Standard Time (America/Indiana/Marengo)"
-        isActive = true
-      },
-      {
-        fullName = "America/Indiana/Petersburg"
-        default = false
-        label = "(GMT-05:00) Eastern Standard Time (America/Indiana/Petersburg)"
-        isActive = true
-      },
-      {
-        fullName = "America/Indiana/Vevay"
-        default = false
-        label = "(GMT-05:00) Eastern Standard Time (America/Indiana/Vevay)"
-        isActive = true
-      },
-      {
-        fullName = "America/Indiana/Vincennes"
-        default = false
-        label = "(GMT-05:00) Eastern Standard Time (America/Indiana/Vincennes)"
-        isActive = true
-      },
-      {
-        fullName = "America/Indiana/Winamac"
-        default = false
-        label = "(GMT-05:00) Eastern Standard Time (America/Indiana/Winamac)"
-        isActive = true
-      },
-      {
-        fullName = "America/Iqaluit"
-        default = false
-        label = "(GMT-05:00) Eastern Standard Time (America/Iqaluit)"
+        label = "(GMT-05:00) Central Daylight Time (America/Indiana/Tell_City)"
         isActive = true
       },
       {
@@ -3537,45 +3615,45 @@ settings salesforce.Organization {
         isActive = true
       },
       {
-        fullName = "America/Kentucky/Monticello"
-        default = false
-        label = "(GMT-05:00) Eastern Standard Time (America/Kentucky/Monticello)"
-        isActive = true
-      },
-      {
         fullName = "America/Lima"
         default = false
         label = "(GMT-05:00) Peru Standard Time (America/Lima)"
         isActive = true
       },
       {
-        fullName = "America/Louisville"
+        fullName = "America/Matamoros"
         default = false
-        label = "(GMT-05:00) Eastern Standard Time (America/Louisville)"
+        label = "(GMT-05:00) Central Daylight Time (America/Matamoros)"
         isActive = true
       },
       {
-        fullName = "America/Montreal"
+        fullName = "America/Menominee"
         default = false
-        label = "(GMT-05:00) Eastern Standard Time (America/Montreal)"
+        label = "(GMT-05:00) Central Daylight Time (America/Menominee)"
         isActive = true
       },
       {
-        fullName = "America/Nassau"
+        fullName = "America/North_Dakota/Beulah"
         default = false
-        label = "(GMT-05:00) Eastern Standard Time (America/Nassau)"
+        label = "(GMT-05:00) Central Daylight Time (America/North_Dakota/Beulah)"
         isActive = true
       },
       {
-        fullName = "America/New_York"
+        fullName = "America/North_Dakota/Center"
         default = false
-        label = "(GMT-05:00) Eastern Standard Time (America/New_York)"
+        label = "(GMT-05:00) Central Daylight Time (America/North_Dakota/Center)"
         isActive = true
       },
       {
-        fullName = "America/Nipigon"
+        fullName = "America/North_Dakota/New_Salem"
         default = false
-        label = "(GMT-05:00) Eastern Standard Time (America/Nipigon)"
+        label = "(GMT-05:00) Central Daylight Time (America/North_Dakota/New_Salem)"
+        isActive = true
+      },
+      {
+        fullName = "America/Ojinaga"
+        default = false
+        label = "(GMT-05:00) Mountain Daylight Time (America/Ojinaga)"
         isActive = true
       },
       {
@@ -3585,15 +3663,21 @@ settings salesforce.Organization {
         isActive = true
       },
       {
-        fullName = "America/Pangnirtung"
+        fullName = "America/Rainy_River"
         default = false
-        label = "(GMT-05:00) Eastern Standard Time (America/Pangnirtung)"
+        label = "(GMT-05:00) Central Daylight Time (America/Rainy_River)"
         isActive = true
       },
       {
-        fullName = "America/Port-au-Prince"
+        fullName = "America/Rankin_Inlet"
         default = false
-        label = "(GMT-05:00) Eastern Standard Time (America/Port-au-Prince)"
+        label = "(GMT-05:00) Central Daylight Time (America/Rankin_Inlet)"
+        isActive = true
+      },
+      {
+        fullName = "America/Resolute"
+        default = false
+        label = "(GMT-05:00) Central Daylight Time (America/Resolute)"
         isActive = true
       },
       {
@@ -3603,15 +3687,9 @@ settings salesforce.Organization {
         isActive = true
       },
       {
-        fullName = "America/Thunder_Bay"
+        fullName = "America/Winnipeg"
         default = false
-        label = "(GMT-05:00) Eastern Standard Time (America/Thunder_Bay)"
-        isActive = true
-      },
-      {
-        fullName = "America/Toronto"
-        default = false
-        label = "(GMT-05:00) Eastern Standard Time (America/Toronto)"
+        label = "(GMT-05:00) Central Daylight Time (America/Winnipeg)"
         isActive = true
       },
       {
@@ -3633,9 +3711,15 @@ settings salesforce.Organization {
         isActive = true
       },
       {
-        fullName = "America/Chicago"
+        fullName = "America/Boise"
         default = false
-        label = "(GMT-06:00) Central Standard Time (America/Chicago)"
+        label = "(GMT-06:00) Mountain Daylight Time (America/Boise)"
+        isActive = true
+      },
+      {
+        fullName = "America/Cambridge_Bay"
+        default = false
+        label = "(GMT-06:00) Mountain Daylight Time (America/Cambridge_Bay)"
         isActive = true
       },
       {
@@ -3651,6 +3735,18 @@ settings salesforce.Organization {
         isActive = true
       },
       {
+        fullName = "America/Denver"
+        default = false
+        label = "(GMT-06:00) Mountain Daylight Time (America/Denver)"
+        isActive = true
+      },
+      {
+        fullName = "America/Edmonton"
+        default = false
+        label = "(GMT-06:00) Mountain Daylight Time (America/Edmonton)"
+        isActive = true
+      },
+      {
         fullName = "America/El_Salvador"
         default = false
         label = "(GMT-06:00) Central Standard Time (America/El_Salvador)"
@@ -3663,33 +3759,15 @@ settings salesforce.Organization {
         isActive = true
       },
       {
-        fullName = "America/Indiana/Knox"
+        fullName = "America/Inuvik"
         default = false
-        label = "(GMT-06:00) Central Standard Time (America/Indiana/Knox)"
-        isActive = true
-      },
-      {
-        fullName = "America/Indiana/Tell_City"
-        default = false
-        label = "(GMT-06:00) Central Standard Time (America/Indiana/Tell_City)"
+        label = "(GMT-06:00) Mountain Daylight Time (America/Inuvik)"
         isActive = true
       },
       {
         fullName = "America/Managua"
         default = false
         label = "(GMT-06:00) Central Standard Time (America/Managua)"
-        isActive = true
-      },
-      {
-        fullName = "America/Matamoros"
-        default = false
-        label = "(GMT-06:00) Central Standard Time (America/Matamoros)"
-        isActive = true
-      },
-      {
-        fullName = "America/Menominee"
-        default = false
-        label = "(GMT-06:00) Central Standard Time (America/Menominee)"
         isActive = true
       },
       {
@@ -3711,51 +3789,9 @@ settings salesforce.Organization {
         isActive = true
       },
       {
-        fullName = "America/North_Dakota/Beulah"
-        default = false
-        label = "(GMT-06:00) Central Standard Time (America/North_Dakota/Beulah)"
-        isActive = true
-      },
-      {
-        fullName = "America/North_Dakota/Center"
-        default = false
-        label = "(GMT-06:00) Central Standard Time (America/North_Dakota/Center)"
-        isActive = true
-      },
-      {
-        fullName = "America/North_Dakota/New_Salem"
-        default = false
-        label = "(GMT-06:00) Central Standard Time (America/North_Dakota/New_Salem)"
-        isActive = true
-      },
-      {
-        fullName = "America/Ojinaga"
-        default = false
-        label = "(GMT-06:00) Mountain Standard Time (America/Ojinaga)"
-        isActive = true
-      },
-      {
-        fullName = "America/Rainy_River"
-        default = false
-        label = "(GMT-06:00) Central Standard Time (America/Rainy_River)"
-        isActive = true
-      },
-      {
-        fullName = "America/Rankin_Inlet"
-        default = false
-        label = "(GMT-06:00) Central Standard Time (America/Rankin_Inlet)"
-        isActive = true
-      },
-      {
         fullName = "America/Regina"
         default = false
         label = "(GMT-06:00) Central Standard Time (America/Regina)"
-        isActive = true
-      },
-      {
-        fullName = "America/Resolute"
-        default = false
-        label = "(GMT-06:00) Central Standard Time (America/Resolute)"
         isActive = true
       },
       {
@@ -3771,27 +3807,15 @@ settings salesforce.Organization {
         isActive = true
       },
       {
-        fullName = "America/Winnipeg"
+        fullName = "America/Yellowknife"
         default = false
-        label = "(GMT-06:00) Central Standard Time (America/Winnipeg)"
+        label = "(GMT-06:00) Mountain Daylight Time (America/Yellowknife)"
         isActive = true
       },
       {
         fullName = "Pacific/Galapagos"
         default = false
         label = "(GMT-06:00) Galapagos Time (Pacific/Galapagos)"
-        isActive = true
-      },
-      {
-        fullName = "America/Boise"
-        default = false
-        label = "(GMT-07:00) Mountain Standard Time (America/Boise)"
-        isActive = true
-      },
-      {
-        fullName = "America/Cambridge_Bay"
-        default = false
-        label = "(GMT-07:00) Mountain Standard Time (America/Cambridge_Bay)"
         isActive = true
       },
       {
@@ -3813,18 +3837,6 @@ settings salesforce.Organization {
         isActive = true
       },
       {
-        fullName = "America/Denver"
-        default = false
-        label = "(GMT-07:00) Mountain Standard Time (America/Denver)"
-        isActive = true
-      },
-      {
-        fullName = "America/Edmonton"
-        default = false
-        label = "(GMT-07:00) Mountain Standard Time (America/Edmonton)"
-        isActive = true
-      },
-      {
         fullName = "America/Fort_Nelson"
         default = false
         label = "(GMT-07:00) Mountain Standard Time (America/Fort_Nelson)"
@@ -3837,9 +3849,9 @@ settings salesforce.Organization {
         isActive = true
       },
       {
-        fullName = "America/Inuvik"
+        fullName = "America/Los_Angeles"
         default = false
-        label = "(GMT-07:00) Mountain Standard Time (America/Inuvik)"
+        label = "(GMT-07:00) Pacific Daylight Time (America/Los_Angeles)"
         isActive = true
       },
       {
@@ -3855,39 +3867,63 @@ settings salesforce.Organization {
         isActive = true
       },
       {
+        fullName = "America/Santa_Isabel"
+        default = false
+        label = "(GMT-07:00) Northwest Mexico Daylight Time (America/Santa_Isabel)"
+        isActive = true
+      },
+      {
+        fullName = "America/Tijuana"
+        default = false
+        label = "(GMT-07:00) Pacific Daylight Time (America/Tijuana)"
+        isActive = true
+      },
+      {
+        fullName = "America/Vancouver"
+        default = false
+        label = "(GMT-07:00) Pacific Daylight Time (America/Vancouver)"
+        isActive = true
+      },
+      {
         fullName = "America/Whitehorse"
         default = false
         label = "(GMT-07:00) Yukon Time (America/Whitehorse)"
         isActive = true
       },
       {
-        fullName = "America/Yellowknife"
+        fullName = "America/Anchorage"
         default = false
-        label = "(GMT-07:00) Mountain Standard Time (America/Yellowknife)"
+        label = "(GMT-08:00) Alaska Daylight Time (America/Anchorage)"
         isActive = true
       },
       {
-        fullName = "America/Los_Angeles"
+        fullName = "America/Juneau"
         default = false
-        label = "(GMT-08:00) Pacific Standard Time (America/Los_Angeles)"
+        label = "(GMT-08:00) Alaska Daylight Time (America/Juneau)"
         isActive = true
       },
       {
-        fullName = "America/Santa_Isabel"
+        fullName = "America/Metlakatla"
         default = false
-        label = "(GMT-08:00) Northwest Mexico Standard Time (America/Santa_Isabel)"
+        label = "(GMT-08:00) Alaska Daylight Time (America/Metlakatla)"
         isActive = true
       },
       {
-        fullName = "America/Tijuana"
+        fullName = "America/Nome"
         default = false
-        label = "(GMT-08:00) Pacific Standard Time (America/Tijuana)"
+        label = "(GMT-08:00) Alaska Daylight Time (America/Nome)"
         isActive = true
       },
       {
-        fullName = "America/Vancouver"
+        fullName = "America/Sitka"
         default = false
-        label = "(GMT-08:00) Pacific Standard Time (America/Vancouver)"
+        label = "(GMT-08:00) Alaska Daylight Time (America/Sitka)"
+        isActive = true
+      },
+      {
+        fullName = "America/Yakutat"
+        default = false
+        label = "(GMT-08:00) Alaska Daylight Time (America/Yakutat)"
         isActive = true
       },
       {
@@ -3897,39 +3933,9 @@ settings salesforce.Organization {
         isActive = true
       },
       {
-        fullName = "America/Anchorage"
+        fullName = "America/Adak"
         default = false
-        label = "(GMT-09:00) Alaska Standard Time (America/Anchorage)"
-        isActive = true
-      },
-      {
-        fullName = "America/Juneau"
-        default = false
-        label = "(GMT-09:00) Alaska Standard Time (America/Juneau)"
-        isActive = true
-      },
-      {
-        fullName = "America/Metlakatla"
-        default = false
-        label = "(GMT-09:00) Alaska Standard Time (America/Metlakatla)"
-        isActive = true
-      },
-      {
-        fullName = "America/Nome"
-        default = false
-        label = "(GMT-09:00) Alaska Standard Time (America/Nome)"
-        isActive = true
-      },
-      {
-        fullName = "America/Sitka"
-        default = false
-        label = "(GMT-09:00) Alaska Standard Time (America/Sitka)"
-        isActive = true
-      },
-      {
-        fullName = "America/Yakutat"
-        default = false
-        label = "(GMT-09:00) Alaska Standard Time (America/Yakutat)"
+        label = "(GMT-09:00) Hawaii-Aleutian Daylight Time (America/Adak)"
         isActive = true
       },
       {
@@ -3942,12 +3948,6 @@ settings salesforce.Organization {
         fullName = "Pacific/Marquesas"
         default = false
         label = "(GMT-09:30) Marquesas Time (Pacific/Marquesas)"
-        isActive = true
-      },
-      {
-        fullName = "America/Adak"
-        default = false
-        label = "(GMT-10:00) Hawaii-Aleutian Standard Time (America/Adak)"
         isActive = true
       },
       {
