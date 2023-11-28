@@ -2,7 +2,7 @@ salesforce.Role BOO {
   fullName = "BOO"
   caseAccessLevel = "Edit"
   contactAccessLevel = "Edit"
-  description = "BOO rfgrergv"
+  description = "BOO"
   mayForecastManagerShare = false
   name = "BOO lovely"
   opportunityAccessLevel = "Edit"

@@ -13,7 +13,7 @@ salesforce.AccountSettings {
   enableRelateContactToMultipleAccounts = false
   showViewHierarchyLink = true
   _alias = "Account"
-  enableAccountInsightsInMobile = false
+  
 }
 salesforce.ActionsSettings {
   fullName = "Actions"
@@ -6036,6 +6036,7 @@ salesforce.FlowSettings {
   isSupportRollbackOnErrorForApexInvocableActionsEnabled = "false"
   
   _alias = "Flow"
+  isTimeResumedInSameRunContext = "true"
 }
 salesforce.ForecastingSettings {
   fullName = "Forecasting"
@@ -9003,7 +9004,7 @@ salesforce.OpportunitySettings {
   simpleOppCreateFromContact = "false"
   simpleOppCreateFromEvent = "false"
   _alias = "Opportunity"
-  enableOpportunityInsightsInMobile = false
+  
 }
 salesforce.OrderManagementSettings {
   fullName = "OrderManagement"
@@ -9835,7 +9836,7 @@ salesforce.ServiceCloudVoiceSettings {
   enableServiceCloudVoice = "false"
   enableVoiceInGovCloudOptIn = "false"
   _alias = "ServiceCloudVoice"
-  enableSCVSupportBannerDisplayed = "false"
+  
 }
 salesforce.ServiceSetupAssistantSettings {
   fullName = "ServiceSetupAssistant"
@@ -10009,4 +10010,12 @@ salesforce.WorkDotComSettings {
   enableWorkCertificationNotification = "false"
   enableWorkThanksPref = "false"
   _alias = "WorkDotCom"
+}
+salesforce.ConversationServiceIntegrationSettings {
+  fullName = "ConversationServiceIntegration"
+  _alias = "ConversationServiceIntegration"
+}
+salesforce.ArchiveSettings {
+  fullName = "Archive"
+  _alias = "Archive"
 }
