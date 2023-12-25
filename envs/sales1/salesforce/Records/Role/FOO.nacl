@@ -1,11 +1,11 @@
-salesforce.Role LALA {
-  fullName = "LALA"
+salesforce.Role FOO {
+  fullName = "FOO"
   caseAccessLevel = "Edit"
   contactAccessLevel = "Edit"
-  description = "LALA"
+  description = "FOO ffg"
   mayForecastManagerShare = false
-  name = "LALA"
+  name = "FOO single-env pull"
   opportunityAccessLevel = "Edit"
   parentRole = salesforce.Role.instance.CEO
-  _alias = "LALA"
+  _alias = "FOO"
 }
