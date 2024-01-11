@@ -1,0 +1,8 @@
+envs {
+  envsCloud = [
+    {
+      uuid = "44bd9e66-f061-4942-bde9-b94b386e41dc"
+      folderName = "jira-filter"
+    },
+  ]
+}
