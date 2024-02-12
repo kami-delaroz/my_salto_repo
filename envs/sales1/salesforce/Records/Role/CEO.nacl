@@ -4,7 +4,7 @@ salesforce.Role CEO {
   contactAccessLevel = "Edit"
   description = "CEO"
   mayForecastManagerShare = false
-  name = "CEO single-env"
+  name = "CEO stjttry"
   opportunityAccessLevel = "Edit"
   _alias = "CEO"
 }
