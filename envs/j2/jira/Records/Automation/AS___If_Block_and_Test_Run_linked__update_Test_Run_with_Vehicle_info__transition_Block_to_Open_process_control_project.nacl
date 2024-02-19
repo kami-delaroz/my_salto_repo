@@ -1,0 +1,131 @@
+jira.Automation AS___If_Block_and_Test_Run_linked__update_Test_Run_with_Vehicle_info__transition_Block_to_Open_process_control_project@sbsssssszdsssssszdssssubb {
+  name = "AS - If Block and Test Run linked, update Test Run with Vehicle info, transition Block to Open"
+  state = "ENABLED"
+  authorAccountId = {
+    id = "60e8b78784c9920071996842"
+    displayName = "Lior Neudorfer"
+  }
+  actor = {
+    type = "ACCOUNT_ID"
+    value = {
+      id = "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077"
+      displayName = "Automation for Jira"
+    }
+  }
+  trigger = {
+    component = "TRIGGER"
+    schemaVersion = 2
+    type = "jira.issue.field.changed"
+    value = {
+      changeType = "ANY_CHANGE"
+      fields = [
+        {
+          value = jira.Field.instance.Incident_Severity__select__c@suuuu.name
+          type = "fieldName"
+        },
+      ]
+      actions = [
+      ]
+    }
+    children = [
+    ]
+    conditions = [
+    ]
+  }
+  components = [
+    {
+      component = "CONDITION"
+      schemaVersion = 1
+      type = "jira.condition.container.block"
+      children = [
+        {
+          component = "CONDITION_BLOCK"
+          schemaVersion = 1
+          type = "jira.condition.if.block"
+          value = {
+            conditionMatchType = "ALL"
+          }
+          children = [
+            {
+              component = "ACTION"
+              schemaVersion = 1
+              type = "jira.issue.delete.link"
+              value = {
+                deleteLinkTypes = [
+                ]
+              }
+              children = [
+              ]
+              conditions = [
+              ]
+            },
+            {
+              component = "ACTION"
+              schemaVersion = 2
+              type = "jira.issue.link"
+              value = {
+                linkType = jira.IssueLinkType.instance.06_Test_Run@s
+                issue = {
+                  type = "SMART"
+                  value = "{{destinationIssue.key}}"
+                }
+                linkTypeDirection = "outward"
+              }
+              children = [
+              ]
+              conditions = [
+              ]
+            },
+          ]
+          conditions = [
+            {
+              component = "CONDITION"
+              schemaVersion = 1
+              type = "jira.comparator.condition"
+              value = {
+                first = "{{lookupIssues.size}}"
+                second = "1"
+                operator = "GREATER_THAN"
+              }
+              children = [
+              ]
+              conditions = [
+              ]
+            },
+          ]
+        },
+      ]
+      conditions = [
+      ]
+    },
+  ]
+  canOtherRuleTrigger = false
+  notifyOnError = "FIRSTERROR"
+  projects = [
+    {
+      projectId = jira.Project.instance.process_control_project@b
+    },
+  ]
+  labels = [
+    jira.AutomationLabel.instance.aaaaa,
+  ]
+  tags = [
+    {
+      tagType = "IS_RULE_UPDATED"
+      tagValue = "true"
+    },
+  ]
+  ruleHome = {
+    ruleLifecycleHome = {
+      locationARI = "ari:cloud:jira:128baddc-c238-4857-b249-cfc84bd10c4b:project/10001"
+    }
+    ruleBillingHome = {
+      locationARI = "ari:cloud:jira-software::site/128baddc-c238-4857-b249-cfc84bd10c4b"
+    }
+  }
+  writeAccessType = "UNRESTRICTED"
+  collaborators = [
+  ]
+  billingType = "NORMAL"
+  _alias = "AS - If Block and Test Run linked, update Test Run with Vehicle info, transition Block to Open"
+}

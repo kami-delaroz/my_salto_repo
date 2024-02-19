@@ -1,0 +1,83 @@
+jira.Automation Lior1Rule_A_test_project_for_Lior@ussss {
+  name = "Lior1Rule"
+  state = "ENABLED"
+  description = ""
+  authorAccountId = {
+    id = "60e8b78784c9920071996842"
+    displayName = "Lior Neudorfer"
+  }
+  actor = {
+    type = "ACCOUNT_ID"
+    value = {
+      id = "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077"
+      displayName = "Automation for Jira"
+    }
+  }
+  trigger = {
+    component = "TRIGGER"
+    schemaVersion = 1
+    type = "jira.issue.event.trigger:created"
+    value = {
+      eventKey = "jira:issue_created"
+      issueEvent = "issue_created"
+    }
+    children = [
+    ]
+    conditions = [
+    ]
+  }
+  components = [
+    {
+      component = "ACTION"
+      schemaVersion = 10
+      type = "jira.issue.edit"
+      value = {
+        operations = [
+          {
+            field = {
+              type = "NAME"
+              value = jira.Field.instance.Lior1Labels__labels__c.name
+            }
+            fieldType = "com.atlassian.jira.plugin.system.customfieldtypes:labels"
+            type = "SET"
+            value = [
+              {
+                type = "FREE"
+                value = "chookie"
+              },
+            ]
+          },
+        ]
+        sendNotifications = true
+      }
+      children = [
+      ]
+      conditions = [
+      ]
+    },
+  ]
+  canOtherRuleTrigger = false
+  notifyOnError = "FIRSTERROR"
+  projects = [
+    {
+      projectId = jira.Project.instance.A_test_project_for_Lior@s
+    },
+  ]
+  labels = [
+  ]
+  tags = [
+  ]
+  ruleHome = {
+    ruleLifecycleHome = {
+      locationARI = "ari:cloud:jira:128baddc-c238-4857-b249-cfc84bd10c4b:project/10196"
+    }
+    ruleBillingHome = {
+      locationARI = "ari:cloud:jira-software::site/128baddc-c238-4857-b249-cfc84bd10c4b"
+    }
+  }
+  writeAccessType = "UNRESTRICTED"
+  collaborators = [
+  ]
+  billingType = "NORMAL"
+  _alias = "Lior1Rule"
+}

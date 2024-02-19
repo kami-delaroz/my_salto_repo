@@ -1,0 +1,39 @@
+jira.Board B12_board@s {
+  name = "B12 board"
+  type = "simple"
+  admins = {
+    users = [
+      {
+        id = "61d44bf59ee70a00685fa6b6"
+        displayName = "Testing salto"
+      },
+    ]
+  }
+  location = {
+    projectId = jira.Project.instance.batel_1_1_24@b
+  }
+  filterId = jira.Filter.instance.missing_13108
+  columnConfig = {
+    columns = [
+      {
+        name = "To Do"
+        statuses = [
+          jira.Status.instance.missing_10542,
+        ]
+      },
+      {
+        name = "In Progress"
+        statuses = [
+          jira.Status.instance.missing_10543,
+        ]
+      },
+      {
+        name = "Done"
+        statuses = [
+          jira.Status.instance.missing_10544,
+        ]
+      },
+    ]
+    constraintType = "none"
+  }
+}

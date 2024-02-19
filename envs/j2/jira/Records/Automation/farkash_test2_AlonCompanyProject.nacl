@@ -1,0 +1,93 @@
+jira.Automation farkash_test2_AlonCompanyProject {
+  name = "farkash_test2"
+  state = "ENABLED"
+  description = ""
+  authorAccountId = {
+    id = "60a60ffb2614ec0068e64623"
+    displayName = "Omri Farkash"
+  }
+  actor = {
+    type = "ACCOUNT_ID"
+    value = {
+      id = "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077"
+      displayName = "Automation for Jira"
+    }
+  }
+  trigger = {
+    component = "TRIGGER"
+    schemaVersion = 1
+    type = "jira.issue.event.trigger:created"
+    value = {
+      eventKey = "jira:issue_created"
+      issueEvent = "issue_created"
+    }
+    children = [
+    ]
+    conditions = [
+    ]
+  }
+  components = [
+    {
+      component = "CONDITION"
+      schemaVersion = 1
+      type = "jira.issue.hasAttachments"
+      children = [
+      ]
+      conditions = [
+      ]
+      hasAttachmentsValue = true
+    },
+    {
+      component = "ACTION"
+      schemaVersion = 3
+      type = "jira.issue.outgoing.email"
+      value = {
+        fromName = ""
+        replyTo = ""
+        to = [
+          {
+            type = "REFERENCE"
+            value = "INITIATOR"
+            additional = "INITIATOR"
+          },
+        ]
+        cc = [
+        ]
+        bcc = [
+        ]
+        subject = "gagaga"
+        body = "wow wow wow"
+        mimeType = "text/html"
+        convertLineBreaks = true
+      }
+      children = [
+      ]
+      conditions = [
+      ]
+    },
+  ]
+  canOtherRuleTrigger = false
+  notifyOnError = "FIRSTERROR"
+  projects = [
+    {
+      projectId = jira.Project.instance.AlonCompanyProject
+    },
+  ]
+  labels = [
+  ]
+  tags = [
+  ]
+  ruleHome = {
+    ruleLifecycleHome = {
+      locationARI = "ari:cloud:jira:128baddc-c238-4857-b249-cfc84bd10c4b:project/10024"
+    }
+    ruleBillingHome = {
+      locationARI = "ari:cloud:jira-software::site/128baddc-c238-4857-b249-cfc84bd10c4b"
+    }
+  }
+  writeAccessType = "UNRESTRICTED"
+  collaborators = [
+  ]
+  billingType = "NORMAL"
+  _alias = "farkash_test2"
+}
