@@ -1,0 +1,114 @@
+jira.Automation Email_on_Labels@s {
+  name = "Email on Labels"
+  state = "ENABLED"
+  description = ""
+  authorAccountId = {
+    id = "60e8b78784c9920071996842"
+    displayName = "Lior Neudorfer"
+  }
+  actor = {
+    type = "ACCOUNT_ID"
+    value = {
+      id = "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077"
+      displayName = "Automation for Jira"
+    }
+  }
+  trigger = {
+    component = "TRIGGER"
+    schemaVersion = 1
+    type = "jira.issue.event.trigger:created"
+    value = {
+      eventKey = "jira:issue_created"
+      issueEvent = "issue_created"
+    }
+    children = [
+    ]
+    conditions = [
+    ]
+  }
+  components = [
+    {
+      component = "CONDITION"
+      schemaVersion = 3
+      type = "jira.issue.condition"
+      value = {
+        selectedField = {
+          type = "ID"
+          value = jira.Field.instance.Labels__array
+        }
+        selectedFieldType = "labels"
+        comparison = "CONTAINS_ANY"
+        compareFieldValue = {
+          type = "NAME"
+          multiValue = true
+          values = [
+            "Label2",
+            "Label3",
+            "sample-space",
+          ]
+        }
+      }
+      children = [
+      ]
+      conditions = [
+      ]
+    },
+    {
+      component = "ACTION"
+      schemaVersion = 3
+      type = "jira.issue.outgoing.email"
+      value = {
+        fromName = ""
+        replyTo = ""
+        to = [
+          {
+            type = "NAME"
+            value = jira.Group.instance.iso_27001_people
+            additional = "GROUP"
+          },
+        ]
+        cc = [
+        ]
+        bcc = [
+        ]
+        subject = "Issue {{issue.key}} was just updated!"
+        body = '''
+Hello,
+
+The issue {{issue.key}} was created, which means you should review it.
+
+Thanks
+'''
+        mimeType = "text/html"
+        convertLineBreaks = true
+      }
+      children = [
+      ]
+      conditions = [
+      ]
+    },
+  ]
+  canOtherRuleTrigger = false
+  notifyOnError = "FIRSTERROR"
+  labels = [
+  ]
+  tags = [
+    {
+      tagType = "IS_RULE_UPDATED"
+      tagValue = "true"
+    },
+  ]
+  ruleHome = {
+    ruleLifecycleHome = {
+      locationARI = "ari:cloud:jira-software::site/128baddc-c238-4857-b249-cfc84bd10c4b"
+    }
+    ruleBillingHome = {
+      locationARI = "ari:cloud:jira-software::site/128baddc-c238-4857-b249-cfc84bd10c4b"
+    }
+  }
+  writeAccessType = "UNRESTRICTED"
+  collaborators = [
+  ]
+  billingType = "NORMAL"
+  _alias = "Email on Labels"
+}

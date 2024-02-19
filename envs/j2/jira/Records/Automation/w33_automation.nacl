@@ -1,0 +1,80 @@
+jira.Automation w33_automation@s {
+  name = "w33 automation"
+  state = "ENABLED"
+  description = "w33 automation"
+  authorAccountId = {
+    id = "640a4787f00d095406f6727f"
+    displayName = "Ido Amit"
+  }
+  actor = {
+    type = "ACCOUNT_ID"
+    value = {
+      id = "557058:f58131cb-b67d-43c7-b30d-6b58d40bd077"
+      displayName = "Automation for Jira"
+    }
+  }
+  trigger = {
+    component = "TRIGGER"
+    schemaVersion = 1
+    type = "jira.issue.comment.event.trigger:updated"
+    value = {
+      eventKey = "jira:issue_updated"
+      issueEvent = "issue_comment_updated"
+    }
+    children = [
+    ]
+    conditions = [
+    ]
+  }
+  components = [
+    {
+      component = "ACTION"
+      schemaVersion = 1
+      type = "cmdb.lookup.objects"
+      value = {
+        workspaceId = "68d020c3-b88e-47dc-9231-452f7dc63521"
+        schemaId = "5"
+        customSmartValue = {
+          id = "_customsmartvalue_id_1705919174621"
+          name = {
+            type = "FREE"
+            value = "lookupObjects"
+          }
+          type = "IQL"
+          query = {
+            type = "SMART"
+            value = "'john smith'"
+          }
+          lazy = false
+        }
+      }
+      children = [
+      ]
+      conditions = [
+      ]
+    },
+  ]
+  canOtherRuleTrigger = false
+  notifyOnError = "FIRSTERROR"
+  labels = [
+  ]
+  tags = [
+    {
+      tagType = "IS_RULE_UPDATED"
+      tagValue = "true"
+    },
+  ]
+  ruleHome = {
+    ruleLifecycleHome = {
+      locationARI = "ari:cloud:jira-software::site/128baddc-c238-4857-b249-cfc84bd10c4b"
+    }
+    ruleBillingHome = {
+      locationARI = "ari:cloud:jira-software::site/128baddc-c238-4857-b249-cfc84bd10c4b"
+    }
+  }
+  writeAccessType = "UNRESTRICTED"
+  collaborators = [
+  ]
+  billingType = "NORMAL"
+  _alias = "w33 automation"
+}

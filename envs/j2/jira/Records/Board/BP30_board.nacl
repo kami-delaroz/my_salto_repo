@@ -1,0 +1,33 @@
+jira.Board BP30_board@s {
+  name = "BP30 board"
+  type = "simple"
+  admins = {
+    users = [
+      {
+        id = "61d44bf59ee70a00685fa6b6"
+        displayName = "Testing salto"
+      },
+    ]
+  }
+  location = {
+    projectId = jira.Project.instance.Batel_Project_30_01@ssb
+  }
+  filterId = jira.Filter.instance.missing_13112
+  columnConfig = {
+    columns = [
+      {
+        name = "In Progress"
+        statuses = [
+          jira.Status.instance.missing_10549,
+        ]
+      },
+      {
+        name = "Done"
+        statuses = [
+          jira.Status.instance.missing_10550,
+        ]
+      },
+    ]
+    constraintType = "none"
+  }
+}
